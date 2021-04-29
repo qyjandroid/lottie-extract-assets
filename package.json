@@ -1,0 +1,26 @@
+{
+    "name": "lottie-extract-assets",
+    "version": "1.0.0",
+    "description": "根据lottie配置文件，提取lottie的json文件中图片，输出配置",
+    "main": "index.js",
+    "scripts": {
+        "lottie:assets": "node ./index.js"
+    },
+    "bin": {
+        "lottie": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com.cnpmjs.org/qyjandroid/lottie-extract-assets.git"
+    },
+    "keywords": [
+        "lottie",
+        "资源提取",
+        "图片提取"
+    ],
+    "author": "quanyj",
+    "license": "ISC",
+    "devDependencies": {
+        "request": "^2.88.2"
+    }
+}
