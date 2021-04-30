@@ -1,13 +1,13 @@
 {
     "name": "lottie-extract-assets",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "根据lottie配置文件，提取lottie的json文件中图片，输出配置",
     "main": "index.js",
     "scripts": {
-        "lottie:assets": "node ./index.js"
+        "lottieExtract": "node ./index.js"
     },
     "bin": {
-        "lottie": "./index.js"
+        "lottieExtract": "./index.js"
     },
     "repository": {
         "type": "git",
@@ -20,7 +20,9 @@
     ],
     "author": "quanyj",
     "license": "ISC",
-    "devDependencies": {
+    "dependencies": {
+        "commander": "^7.2.0",
+        "inquirer": "^8.0.0",
         "request": "^2.88.2"
     }
 }
